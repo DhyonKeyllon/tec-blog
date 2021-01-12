@@ -30,6 +30,43 @@ a{
 }
 
 /*
+**** Formatacão da area principal ****
+*/
+
+#area-postagens, #area-lateral{
+    background: orange;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto; /* auto - Ficara centralizada automaticamente */
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+/*
 **** Formatação do menu ***
 */
 
