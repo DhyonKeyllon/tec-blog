@@ -1,2 +1,2 @@
-# TecBlog
- Blog Ficticio
+#  TecBlog - Blog Ficticio
+ Blog Fictício
