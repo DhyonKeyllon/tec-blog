@@ -33,13 +33,11 @@ a{
 **** Formatacão da area principal ****
 */
 
-#area-postagens, #area-lateral{
-    background: orange;
-}
 
 #area-principal{
     width: 920px;
     margin: 0 auto; /* auto - Ficara centralizada automaticamente */
+    padding: 15px;
 }
 
 #area-postagens{
@@ -56,7 +54,18 @@ a{
     padding: 20px;
     margin-bottom: 20px;
     background: white;
+}
 
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
 }
 
 #rodape{
@@ -71,13 +80,23 @@ a{
 */
 
 a:link, a:visited {
-    color: white;
-    padding: 8px 12px;
+    color: #f7b600;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover {
     color: #f7b600;
     background: white;
+    text-decoration: none;
 }
 
 /*
@@ -90,6 +109,24 @@ h1 {
     
 }
 
+h2 {
+    color:#f7b600 ;
+}
+
+h3 {
+    color:#565656 ;
+    background: #ccc;
+    padding: 5px;
+}
+
 .branco {
     color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
 }
