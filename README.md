@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">TectBlog</h3>
+  <h1 align="center">TecBlog</h1>
 </p>
 
 <p align="center">
